@@ -1,0 +1,158 @@
+*
+{
+    margin: 0px;
+    /*height: 100vh;
+    font: 15px arial;*/
+}
+
+.container {
+    margin: 0px;
+    height: 100vh;
+    font: 17px arial;
+
+    background: blue;
+}
+
+.header 
+{
+    /*background: #4B0082;*/
+
+
+    background: linear-gradient(
+        #4B0082, 
+        #800080 
+        );
+    height: 10%;
+}
+
+.left-sidebar 
+{
+    background: linear-gradient(
+        #800080,
+        #4B0082, 
+        #800080
+        );
+    width: 15%;
+    height: 85%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item
+{
+    width: 100%;
+    height: 7%;
+    margin: 18px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+a
+{
+    color: #00FF00;
+    text-decoration: none;
+}
+a:hover
+{
+    color: red;
+}
+
+.content
+{
+    background: #d09af5;
+    float: left;
+    width: 85%;
+    height: 85%;
+}
+
+table
+{
+    table-layout: fixed;
+    width: 100%;
+    min-width: 100%;
+    /*margin: 5px auto*/;
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+th, td
+{
+    /*min-width: 10%;*/
+    padding: 0px;
+    border: 1px solid blue;
+    /*border-collapse: collapse;*/
+    text-align: center;
+}
+
+.update-and-delete-links
+{
+    color: #228B22;
+}
+
+.table-area
+{
+    padding: 1%; /*проверить с 1*/
+    box-sizing: border-box;
+    height: 90%;
+    background: #E0FFFF;
+}
+
+#buttons-container
+{
+    height: 10%;
+    background: #8A2BE2;
+    /*background: linear-gradient(to right, #8A2BE2, #7B68EE);*/
+}
+
+.buttons-area
+{
+    /*background: #7B68EE;*/
+    background: transparent;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    float: left;
+}
+
+button
+{
+    width: 90%;
+    height: 50%;
+}
+
+.input-field
+{
+    font: 17px arial;
+    background: #98FB98;
+    text-align: center;
+    width: 0;
+    min-width: 100%;
+    padding: 0px;
+    /*outline: none;*/
+    border: none;
+    display: block;
+}
+
+.footer 
+{
+    clear: both;
+    height: 5%;
+    background: linear-gradient(
+        #800080, 
+        #4B0082 
+        );
+}
+
+img 
+{
+    width: 80px;
+    max-width: 80px;
+    max-height: 100%; /*разобратсья*/
+    object-fit: contain;
+}
